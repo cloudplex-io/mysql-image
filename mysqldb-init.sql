@@ -7,4 +7,4 @@ CREATE TABLE `dummy` (
   `text` varchar(1000) NOT NULL,
   PRIMARY KEY (`id`)
 )
-INSERT INTO `dummy` (`id`, `text`) VALUES (1, 'Hello World ');
+INSERT INTO dummy (id, text) VALUES (1, 'Hello World');
