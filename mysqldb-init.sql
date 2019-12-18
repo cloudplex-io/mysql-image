@@ -6,5 +6,5 @@ CREATE TABLE `dummy` (
   `id` int(11) NOT NULL,
   `text` varchar(1000) NOT NULL,
   PRIMARY KEY (`id`)
-)
+);
 INSERT INTO dummy (id, text) VALUES (1, 'Hello World');
